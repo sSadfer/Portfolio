@@ -1,0 +1,176 @@
+/* Section */
+.section {
+    padding: 80px 0;
+}
+
+.section_header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 50px;
+
+    text-align: center;
+
+}
+
+.section_suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333333;
+}
+
+.section_title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.section_title:after{
+    content: '';
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 30px auto 60px;
+    background-color: #a734ff;
+}
+.section_content {
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+
+.section_text {
+    font-size: 15px;
+    color: #656565;
+    text-align: left;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_item {
+    width: 380px;
+    background-color: #b35eff;
+}
+
+.about_item:hover .about_img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.about_item:hover .about_img img {
+    opacity: 0.5;
+}
+
+
+.about_img{
+    background: linear-gradient(to bottom, #8d88a8, #3483b2);
+
+    transition: transform 0.2s linear;
+}
+
+.about_img img {
+    display: block;
+    transition: opacity 0.2s linear;
+}
+
+
+/* Statistics */
+.statistics {
+    background:
+    url("../../images/2.5 statistics/purple-background.jpg") center
+    no-repeat;
+    background-size: cover
+}
+
+.stat {
+    display: flex;
+}
+
+.stat_item {
+    flex: 1 1 0;
+    padding: 45px 25px;
+
+    border-left: 1px solid #ddc0fa;
+
+    text-align: center;
+    color: white;
+}
+
+.stat_item:last-child{
+    border-right: 1px solid #ddc0fa;
+}
+
+.stat_count{
+    margin-bottom: 10px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.stat_text{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills_item {
+    flex: 1 1 0;
+
+    padding-left: 85px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.skills_icon{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 1;
+}
+
+.skills_title {
+    margin-bottom: 10px;
+
+    font-weight: bolder;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.skills_text{
+    font-size: 15px;
+    color: #999;
+    text-align: left;
+}
+
+/* Certificate_block */
+
+.Certificate_block{
+    background:
+    url("../../images/3.5 сertificate/back_cert.jpg") center
+    no-repeat;
+}
+
+
+/* Work experience */
+
+.work_experience_section{
+    text-align: left;
+}
+
+.work_experience_item {
+    padding-bottom: 30px;
+}
+
